@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/todo">Todo List</router-link> |
     <router-link to="/posts">Posts</router-link> |
-    <router-link to="/calculator">Calculator</router-link>
+    <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/hangman">Hangman</router-link>
   </div>
   <router-view/>
 </template>
@@ -28,5 +29,8 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+main {
+  margin: 0 auto;
 }
 </style>
